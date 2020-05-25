@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize-css@2.3.1/normalize.css" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Google</title>
+	<link rel="shortcut icon" href="./google_fav.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet" />
+
+	<link rel="stylesheet" href="./google.css" />
+</head>
+<body>
+	<nav>
+		<ul class="manage">
+			<li><a href="#">GMail</a></li>
+			<li><a href="#">Images</a></li>
+			<li title="Google apps" style="font-size: 1.1em;"><a href="#"><span class="fa fa-th"></span></a></li>
+			<li title="Google Account: Valentin Karazhov 
+(valkaradzhov@gmail.com)">
+				<svg width="40" height="40">
+					<circle cx="20" cy="20" fill="#3300db" r="15" stroke="#3300db" />
+					<text x="15" y="25" fill="white">V</text>
+				</svg>
+			</li>
+		</ul>
+	</nav>
+	<main>
+		<h1><span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red rotate">e</span></h1>
+		<div id="searchbox">
+			<label for="search"><span class="fa fa-search"></span></label>
+			<input type="text" id="search" placeholder="Search Google or type a URL" />
+			<div style="display: inline-block;" class="tooltip">
+				<button class="fa fa-microphone"></button>
+				<span class="tooltip-text">Search by voice</span>
+			</div>
+		</div>
+		<div id="search-result"></div>
+		<div class="buttons">
+			<button>Google Search</button>
+			<button><a href="https://www.google.com/doodles/">I'm Feeling Lucky</a></button>
+		</div>
+		<p id="lang">Google offered in: <a href="#" lang="bg">български</a></p>
+		<footer>
+			<div class="bottom-menu">
+				<p>Bulgaria</p>
+			</div>
+			<div class="bottom-menu">
+				<div class="about">
+					<ul>
+						<li><a href="#">Advertising</a></li>
+						<li><a href="#">Business</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">How Search works</a></li>
+
+					</ul>
+				</div>
+				<div class="settings">
+					<ul>
+						<li><a href="#">Privacy</a></li>
+						<li><a href="#">Terms</a></li>
+						<li><a href="#">Settings</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</main>
+	<script src="./google.js"></script>
+</body>
+</html>
